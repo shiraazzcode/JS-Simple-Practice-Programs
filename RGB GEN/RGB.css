@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.rgbcolor{
+    margin-top: 100px;
+    border: none;
+    background-color:rgb(17, 105, 105);
+    box-shadow: 0 10px 15px 0px black;
+    text-align: center;
+    width: 300px;
+    padding: 30px;
+    border-radius: 10px;
+}
+input{
+    margin-top: 30px;
+    padding: 0px; 
+    width: 200px;
+}
