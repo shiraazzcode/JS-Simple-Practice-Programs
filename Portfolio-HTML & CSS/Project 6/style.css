@@ -1,0 +1,189 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    line-height: 1.4;
+scroll-behavior: smooth;
+}
+section{
+    scroll-margin: 50px;
+}
+ul{
+    list-style: none;
+}
+a{
+    color: white;
+   text-decoration: none;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+
+}
+header{
+    background-color: #281154;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    box-shadow: 5px 5px 5px rgba(169, 116, 255, 0.5);
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    padding: 20px;
+
+}
+.logo{
+    font-size: 32px;
+    font-weight: 600;
+
+}
+nav ul{
+    display: flex;
+    gap: 20px;
+    transition: 0.2s ease-in;
+}
+nav ul li{
+    border-bottom: 2px solid transparent;
+}
+nav ul li:hover{
+border-bottom: 1px solid white;
+transition: 0.2s ease-in;
+}
+.hero-section{
+    background-image: url(images/tune-image.jpg);
+    height: 100vh;
+    display: grid;
+    color: white;
+    place-items: center;
+    align-items: center;
+    text-align: center;
+}
+.hero-section .container{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.hero-section h1{
+    font-size: 96px;
+}
+.hero-section h3{
+font-size: 32px;
+}
+
+.tune-section{
+    padding-top: 50px;
+    background-color: #5b23a5;
+}
+.tune-section .container{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+button{
+    padding:10px 15px;
+    border: none;
+    transition: 0.2s ease-in-out;
+}
+button:hover{
+    opacity: 0.8;
+    transition: 0.2s ease-in-out;
+}
+.btn{
+    background-color: rgb(167, 29, 29);
+    color: white;
+}
+
+.phone-image{
+    margin-top: -400px;
+    position: relative;
+    top: 400px;
+}
+.btn2{
+    background-color: rgb(31, 31, 87);
+    color: white;
+}
+.about-tune{
+    padding-top: 500px;
+    display: grid;
+    place-items: center;
+    gap: 50px;
+    text-align: center;
+    margin-bottom: 50px;
+
+}
+.video-section{
+    background-image: url(images/tune-image.jpg);
+    min-height: 800px;
+    display: grid;
+    place-items: center;
+    color: white;
+    text-align: center;
+}
+.video-section .container{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: -200px;
+
+}
+.hero-section, .video-section{
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.gift-section{
+    display: flex;
+    justify-content: center;
+    margin: 100px 0;
+    gap: 50px;
+}
+.gift-box{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+.btn3{
+    background-color: rgb(31, 31, 87);
+    color: white;
+    width: 100px;
+    margin: auto;
+}
+
+.footer-up{
+    background-color: #5b23a5;
+    padding: 30px;
+
+}
+.footer-up .container{
+    display: flex;
+    color: white;
+    justify-content: space-between;
+}
+.footer-up h4{
+    padding-bottom: 10px;
+    border-bottom: 2px solid white;
+    margin-bottom: 10px;
+
+}
+.footer-low{
+    background-color: #281154;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+.gift-section{
+    scroll-margin: 120px;
+}

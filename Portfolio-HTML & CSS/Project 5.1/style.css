@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+body{
+    background-color: #eee;
+}
+
+nav{
+    background-color: lightseagreen;
+    height: 200px;
+    border: 4px solid black;
+}
+.main-box{
+    background-color: black;
+    width: 100%;
+    height: 1200px;
+    display: flex;
+}
+aside{
+    background-color: lightseagreen;
+    border: 2px solid black;
+    width: 200px;
+    height: 800px;
+}
+section{
+    background-color: lightseagreen;
+    height: 450px;
+    width: 300px;
+    margin: 10px auto;   
+}
+

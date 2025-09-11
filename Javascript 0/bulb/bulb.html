@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Light Bublb</title>
+    
+    <style>
+        #bulb:hover{
+            cursor: pointer;
+
+        }
+    
+    </style>
+</head>
+<body>
+    <div class="bulb">
+        <h1>Click on the bulb</h1>
+        
+        <img id="bulb" onclick="lightOn()" src="bulb2.jpg" width="500px" alt="">
+    </div>
+   
+    <script>
+        function lightOn(){
+          let x = document.getElementById("bulb").src = "bulb1.jpg";
+
+            
+        }
+    
+    
+
+    //     document.getElementById("bulb").onclick = function myfunc(){
+    //         document.getElementById("bulb").src = "bulb1.jpg";
+    //         setTimeout(myfunc, 3000);
+    //     }
+    //    myfunc();
+    
+        </script>
+</body>
+</html>
