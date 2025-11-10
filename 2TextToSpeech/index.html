@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text to speech</title>
+    <style>
+        #inputtext{
+            width: 300px;
+            height: 250px;
+            border: none;
+            box-shadow: 0 0 4px 1px black;
+            font-size: 16px;
+        }
+        button{
+            padding: 5px 10px;
+            border: none;
+            background-color: rgb(156, 211, 74);
+            margin-top: 20px;
+            cursor: pointer;
+
+        }
+
+        button:hover{
+            background-color: rgb(183, 248, 84);
+        }
+    </style>
+</head>
+<body>
+    <h1>Text To Speech</h1>
+    <div>
+        <textarea name="text" id="inputtext"></textarea>
+    </div>
+    <button id="convertbtn">Convert</button>
+
+    <script src="index.js"></script>
+</body>
+</html>
